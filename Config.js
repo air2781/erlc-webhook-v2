@@ -48,8 +48,8 @@ module.exports = {
 
   roblox: {
     groupId: 15990892,
-    securityCookie: process.env.SecurityCookie, // set in Render
-    maskedCookie: process.env.MaskedSecurityCookie, // set in Render
+    securityCookie: SecurityCookie, // set in Render
+    maskedCookie: MaskedSecurityCookie, // set in Render
     whitelistRoleIds: [
       "1312852163000664175",
       "1330398732679643296",
