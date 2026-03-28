@@ -2,7 +2,6 @@ const {
   Client, GatewayIntentBits, Partials, EmbedBuilder, Collection, Events, AuditLogEvent, PermissionFlagsBits, ActionRowBuilder, ButtonBuilder, SlashCommandBuilder, ButtonStyle, ActivityType, REST, Routes } = require("discord.js");
 const fs = require("fs");
 const path = require("path");
-const { sendFridayLogs } = require("./ticketloghandler");
 const { bot, erlc } = require("./Config.js");
 const Config = require("./Config.js");   
 const { token, clientId, guildId, discordEmbedChannelId } = bot;
