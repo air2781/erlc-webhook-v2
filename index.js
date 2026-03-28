@@ -6,7 +6,7 @@ const {
   joinVoiceChannel, createAudioPlayer, createAudioResource, AudioPlayerStatus, entersState, VoiceConnectionStatus 
 } = require('@discordjs/voice');
 const { sendFridayLogs } = require("./ticketloghandler");
-const { bot } = require("./Config.js");
+const { bot, erlc } = require("./Config.js");
 const Config = require("./Config.js");   
 const { token, clientId, guildId, discordEmbedChannelId } = bot;
 const { loginRoblox, handleWhitelist, kickUserFromGroup } = require("./others/groupservice.js");
@@ -317,7 +317,6 @@ client.once("ready", async () => {
     }
 });
 
-const { bot, erlc } = require("./config.js"); // import config
 const http = require("http");
 const nacl = require("tweetnacl");
 
