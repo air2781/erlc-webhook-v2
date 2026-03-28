@@ -1,0 +1,43 @@
+{
+  "bans": [
+    {
+      "executorId": "942789806818213949",
+      "executorUsername": "air2781",
+      "targetId": "871865963006541824",
+      "targetUsername": "codi8106",
+      "reason": "testing testing 1 2 3",
+      "tempban": null,
+      "timestamp": "2025-11-19T04:01:51.668Z"
+    },
+    {
+      "executorId": "942789806818213949",
+      "executorTag": "air2781",
+      "targetId": "710633911839096943",
+      "targetTag": "1ch4shinwho",
+      "reason": "racism",
+      "tempban": false,
+      "unbanDate": null,
+      "timestamp": "2025-11-23T05:39:02.501Z"
+    },
+    {
+      "executorId": "942789806818213949",
+      "executorTag": "air2781",
+      "targetId": "1005723113096491008",
+      "targetTag": "local_bob",
+      "reason": "test",
+      "tempban": false,
+      "unbanDate": null,
+      "timestamp": "2025-12-26T06:17:47.244Z"
+    },
+    {
+      "executorId": "1264781774899380324",
+      "executorTag": "1big1010",
+      "targetId": "1254304671472947240",
+      "targetTag": "lorcan0275",
+      "reason": "Sorry",
+      "tempban": false,
+      "unbanDate": null,
+      "timestamp": "2026-02-07T21:43:29.003Z"
+    }
+  ]
+}

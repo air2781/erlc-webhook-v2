@@ -1,0 +1,24 @@
+{
+  "messages": [
+    {
+      "content": "👮🏻 NYPD is actively hiring new cadets and members. Join our server and ask how to apply! All free!",
+      "interval": 600000
+    },
+    {
+      "content": "⚠️ Reminder! The grappler is restricted to NYC:RP Staff members only! Unauthorized usage results in server removal!",
+      "interval": 180000
+    },
+    {
+      "content": "Remember to use our vehicle liveries! If a car doesn't have one, then please use another one.",
+      "interval": 700000
+    },
+    {
+      "content": "Join us in building a wider community by joining our comms! Code \"nycrpp\". If you have any questions, please do !mod.",
+      "interval": 143000
+    },
+    {
+      "content": "🚔 Reminder: Undercover and SWAT/ESU are WHITELISTED. Anything with \"WL\" written is also WHITELISTED.",
+      "interval": 541000
+    }
+  ]
+}
