@@ -34,10 +34,12 @@ const MaskedSecurityCookie = maskCookie(SecurityCookie);
 
 module.exports = {
   bot: {
-    token: "MTQ1MzE3NzAxMTY2ODUyMTAxMA.Ggp8PB.6cCkkMlV3nV5-JAMqD1OS9xYeHfJ_G3oH6hfHk",
+    token: process.env.BOT_TOKEN, // set this in Render
     clientId: "1453177011668521010",
     guildId: "1290085306489639023",
-    discordEmbedChannelId: "1312854884969873418"
+    discordEmbedChannelId: "1312854884969873418",
+    prpPublicKey: process.env.PRPS_PUBLIC_KEY,
+    port: process.env.PORT || 3000,
   },
 
   bloxlink: {
@@ -46,8 +48,8 @@ module.exports = {
 
   roblox: {
     groupId: 15990892,
-    securityCookie: SecurityCookie,
-    maskedCookie: MaskedSecurityCookie,
+    securityCookie: process.env.SecurityCookie, // set in Render
+    maskedCookie: process.env.MaskedSecurityCookie, // set in Render
     whitelistRoleIds: [
       "1312852163000664175",
       "1330398732679643296",
@@ -58,8 +60,7 @@ module.exports = {
 
   erlc: {
     baseUrl: "https://api.policeroleplay.community",
-    apiKey: "dsRRIzjBpWQlFcXUaCjL-dQlxAmQZmikuDAGSdGYvBCBqyFSPnBRlfthgUiQR", // same structure style as maskedCookie
-
+    apiKey: process.env.ERLC_API_KEY, // move this to env for security
     endpoints: {
       v1: {
         server: "/v1/server",
@@ -68,10 +69,9 @@ module.exports = {
         logs: "/v1/server/logs",
         command: "/v1/server/command"
       },
-
       v2: {
         server: "/v2/server",
-        players: "/v2/players", // ✅ Correct V2 players endpoint
+        players: "/v2/players",
         command: "/v2/server/command"
       }
     }
